@@ -1,13 +1,12 @@
-$screen-small: 360px;
-$screen-medium: 768px;
-$screen-large: 1024px;
-$screen-xlarge: 1280px;
-$screen-xxlarge: 1440px;
-$screen-xxxlarge: 1800px;
-
+$screen-small: 0;
+$screen-medium:576px; 
+$screen-large: 768px;
+$screen-xlarge:992px; 
+$screen-xxlarge:1200px; 
+$screen-xxxlarge:1400px; 
 @mixin media-query-small {
   @media screen and (min-width: $screen-small) {
-    // Mobile - 360px and above
+    // Mobile - 0px and above
     @content;
   }
 }
